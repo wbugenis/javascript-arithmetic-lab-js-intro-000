@@ -26,6 +26,6 @@ function makeInt(string) {
   return (parseInt(string, 10))
 }
 
-function makeFloat(string) new Promise(function(resolve, reject) {
+function makeFloat(string) {
   return(parseFloat(string))
 }
